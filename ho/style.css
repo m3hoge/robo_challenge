@@ -1,0 +1,40 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+.wrapper {
+    max-width: 1200px;
+    /* max-width: 1080px; */
+    margin: 0 auto;
+    padding: 0 2px;
+}
+
+.heading {
+    width: 500px; 
+    padding: 0.5em;/*文字周りの余白*/
+    color: blue;/*文字色*/
+    /* border-left: solid 5px #ffaf58;左線（実線 太さ 色） */
+    border-left: solid 5px;/*左線（実線 太さ 色）*/
+}
+
+.top {
+    display: flex;
+}
+
+.top .aside {
+    margin: 30px;
+}
+
+.concept {
+    font-size: 16px;
+}
+
+article {
+    background-color: honeydew;
+    display: flex;
+    margin: 1%;
+    justify-content: space-between;
+    font-size: 24px;
+}
