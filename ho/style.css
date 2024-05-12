@@ -1,7 +1,13 @@
 body {
-    min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+    min-height: 100vh;
+    font-family: "Noto Sans JP", sans-serif; ;
+    font-weight: 500;
+    background-color: #ffffff;
+    /* background-color: #e0e0f0; */
+    /* background-color: #fcfcff; */
 }
 
 .wrapper {
@@ -14,27 +20,88 @@ body {
 .heading {
     width: 500px; 
     padding: 0.5em;/*文字周りの余白*/
-    color: blue;/*文字色*/
+    color: orange;/*文字色*/
     /* border-left: solid 5px #ffaf58;左線（実線 太さ 色） */
     border-left: solid 5px;/*左線（実線 太さ 色）*/
+    font-size: 1.5rem;
 }
 
 .top {
     display: flex;
 }
 
-.top .aside {
-    margin: 30px;
+.top .concept {
+    font-size: 1.25rem;
+    margin-right: 5%;
 }
 
-.concept {
-    font-size: 16px;
+.top aside img {
+    margin: 5%;
+    max-width: 252px;
+    max-height: 189px;
 }
 
-article {
-    background-color: honeydew;
+.link-button :hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+
+footer {
+    /* background-color: gray; */
+    text-align: center;
+    padding: 7px 0;
+    width: 100%;
+}
+
+footer p {
+    /* color: #fff; */
+    color: black;
+    font-size: 0.875rem;
+}
+
+.card {
     display: flex;
-    margin: 1%;
     justify-content: space-between;
-    font-size: 24px;
+    padding: 16px 24px;
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.14);
+    border-radius: 4px;
+    /* margin: 16px; */
+    margin: 1%;
+    font-size: 1.25rem;
+}
+
+.card:hover {
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4), 0 0 50px rgba(128, 128, 128, 0.1) ;
+    border-color: transparent;
+}
+
+.link{
+  position: absolute;
+  inset: 0;
+  /* background: #4097DB; */
+  background: white;
+  opacity: 0.2;
+}
+
+.button{
+  /* background: #55C500; */
+  background: #ff4d4d;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  margin-top: 8px;
+  padding: 4px 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.button:hover {
+  background-color: #f50000;
+  cursor: pointer;
+  transform: translateY(-2px);
 }

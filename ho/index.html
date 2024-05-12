@@ -5,51 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>追手門ロボットチャレンジ</title>
     <link href="style.css" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="wrapper">
-        <h1><a href="index.html"><img src="./images/top_img.jpg"></a></h1>
+        <h1><a href="./index.html"><img src="./images/top_img.jpg"></a></h1>
     </header>
     <main class="wrapper">
+        <h2 class="heading">追手門ロボットチャレンジとは</h2>
         <div class="top">
             <div class="concept">
-                <p class="heading">コンセプト concept</p>
-                <img src="./images/コンセプト画像.png" width="300px" height="150px">
+                <img src="./images/sample_l2.jpg" width="750px" height="450px">
                 <p>
                     追手門ロボットチャレンジとは、追手門学院大学の学生が、産官学や産学連携により、ロボットプログラミング講座を通して、日本のプログラミング教育にチャレンジするプロジェクトです。日本のプログラミング教育の現状は、小学校～高校まで、２０２０年度に必修化されましたが、まだまだ他国と比べると先進的な状況とは言えません。このサイトは、日本のプログラミング教育の発展に少しでも寄与できるよう立ち上げました。
                 </p>
             </div>
-            <div class="aside">
-                <a href="#"><img src="./images/アクセス画像.png" width="200px" height="150px"></a>
-                <a href="#"><img src="./images/お問い合わせ.png" width="200px" height="150px"></a>
-            </div>
+            <aside class="link-button">
+                <a href="https://maps.app.goo.gl/LdNjcypMnS8TA6nL7"><img src="./images/アクセス画像.png" width="324px" height="243px"></a>
+                <a href="#"><img src="./images/お問い合わせ.png" width="324px" height="243px"></a>
+            </aside>
         </div>
-        <p class="heading">お知らせ</p>
+        <h2 class="heading">お知らせ</h2>
         <div id="NewsContainer">
-            <article>
-                <div class="description">
-                    <p>第xx回セミナー</p>
-                    <p>x月y日z時間～</p>
-                    <p>date</p>
-                </div>
+            <div class="card">
                 <div>
-                    <img src="images/gazou.png" width="150px" height="150px">
-                    <a href="#"><p>こちらから！</p></a>
+                    <a href="./article/第一回セミナー.html" class="link"></a>
+                    <h3>第xx回ロボットセミナー</h3>
+                    <p>x月y日z時</p>
+                    <p>夏休みにロボットを学ぼう</p>
+                    <a href="./article/第一回セミナー.html"><button class="button">詳細はこちら!</button></a>
                 </div>
-            </article>
-            <article>
-                <div class="description">
-                    <p>第xx回セミナー</p>
-                    <p>x月y日z時間～</p>
-                    <p>date</p>
-                </div>
-                <div>
-                    <img src="images/gazou.png" width="150px" height="150px">
-                    <a href="#"><p>こちらから！</p></a>
-                </div>
+                <img src="./images/セミナーイメージ.jpg" width="350px" height="200px">
+            </div>
         </div>
     </main>
     <footer>
+        <p><small>&copy; 2024 追手門ロボットチャレンジ All Rights Reserved.</small></p>
     </footer>
 </body>
 </html>
