@@ -10,6 +10,11 @@ body {
     /* background-color: #fcfcff; */
 }
 
+header  img{
+    width: 900px;
+    /* border: 1px solid rgba(0, 0, 0, 0.9); */
+}
+
 .wrapper {
     max-width: 1200px;
     /* max-width: 1080px; */
@@ -18,7 +23,7 @@ body {
 }
 
 .heading {
-    width: 500px; 
+    width: 500px;
     padding: 0.5em;/*文字周りの余白*/
     color: orange;/*文字色*/
     /* border-left: solid 5px #ffaf58;左線（実線 太さ 色） */
@@ -48,6 +53,7 @@ body {
 
 aside h3 {
     color: black;
+    font-size: 1.5rem;
 }
 
 footer {
