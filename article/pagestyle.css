@@ -10,6 +10,11 @@ body {
     /* background-color: #fcfcff; */
 }
 
+header  img{
+    width: 900px;
+    /* border: 1px solid rgba(0, 0, 0, 0.9); */
+}
+
 .wrapper {
     max-width: 1200px;
     /* max-width: 1080px; */
