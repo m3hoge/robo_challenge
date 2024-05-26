@@ -46,6 +46,9 @@ body {
   transform: translateY(-2px);
 }
 
+aside h3 {
+    color: black;
+}
 
 footer {
     /* background-color: gray; */
@@ -58,6 +61,14 @@ footer p {
     /* color: #fff; */
     color: black;
     font-size: 0.875rem;
+}
+
+.frame {
+    text-align: center;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+    /* border: 1px solid rgba(0, 0, 0, 0.12); */
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .card {
@@ -79,7 +90,7 @@ footer p {
     border-color: transparent;
 }
 
-.link{
+.card .link{
   position: absolute;
   inset: 0;
   /* background: #4097DB; */
